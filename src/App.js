@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import {BindingEventsDemo} from './Components/BindingEventsDemo';
+import ConditionalRenderDemo from './Components/ConditionalRenderDemo';
+import ListRenderDemo from './Components/ListRenderDemo';
+import StyleApproach1 from './Components/StyleApproach1';
+import StyleApproach2 from './Components/StyleApproach2';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <h1>Hello Sharath </h1>
+    <Counter/> */}
+    {/* <BindingEventsDemo/> */}
+    {/* <ConditionalRenderDemo/> */}
+    {/* <ListRenderDemo/> */}
+    {/* <StyleApproach1/> */}
+    <StyleApproach2/>
+    </>
   );
 }
 
